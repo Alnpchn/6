@@ -11,21 +11,21 @@ void main()
 	int sec;
 	float s;
 	setlocale(LC_ALL, "RUS");
-	puts("задание 1\n");
+	puts("Р·Р°РґР°РЅРёРµ 1\n");
 	int years;
 	printf("int year:");
 	scanf("%d", &years);
 	if (years % 4 == 0)
-		printf("%d - високосный год\n", years);
-	else printf("%d - невисокосный год\n", years);
+		printf("%d - РІРёСЃРѕРєРѕСЃРЅС‹Р№ РіРѕРґ\n", years);
+	else printf("%d - РЅРµРІРёСЃРѕРєРѕСЃРЅС‹Р№ РіРѕРґ\n", years);
 
-	puts("задание 2\n");
+	puts("Р·Р°РґР°РЅРёРµ 2\n");
 
 	float x, F;
 	/*
-	при x = 0,5 F(x) = -0,25
-	при x = 1,5 F(x) = 1,55
-	при x = -1,5 F(x) = 1,55
+	ГЇГ°ГЁ x = 0,5 F(x) = -0,25
+	ГЇГ°ГЁ x = 1,5 F(x) = 1,55
+	ГЇГ°ГЁ x = -1,5 F(x) = 1,55
 	*/
 	printf("input X:");
 	scanf("%f", &x);
