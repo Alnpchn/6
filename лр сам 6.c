@@ -7,7 +7,7 @@ float main()
 	puts("Введите число <1000");
 	scanf("%f", &x);
 	y = x / 10;
-	z = x / 100;
+	z = x / 10;
 	n = x % 10;
 	m = y + z + n;
 	if (m % 3 == 0) {
